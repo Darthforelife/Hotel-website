@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <title>Booking</title>
     <link rel="stylesheet" href="css/booking.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="global.css">
 </head>
-<body>    
+<body>
 <header>
-    <div class="container">
+    <div class="container animated zoomIn">
        <h3 class="h3">The Grizzly Tundra Hotel and Resort</h3>
         <nav>
             <ul>
@@ -22,7 +24,7 @@
     </div>
 </header>
 
-<div class="left">
+<div class="left animated fadeInLeft">
     
 </div>
 <div class="right">
@@ -294,13 +296,15 @@
     </optgroup>
     </select> 
 </form>
-<form>
+<form action="destination.html" method="get">
     <h2>Booking Details</h2>
-    <label for="date">Booking date: </label><input id="date" type="date" name="date" min="2017-10-23">
-    <label for="numberOfGuests">Number of guests: </label><input id="numberOfGuests" type="number" name="numberofguests" min="1" max="11"><br>
+    <label for="arrival">Arrival: </label><input id="arrival" type="date" name="arrival" min="2017-10-24">
+    <label for="checkout">Checkout: </label><input id="checkout" type="date" name="checkout" min="2017-10-25"><br>
+    <label for="numberOfGuests">Number of guests: </label><input id="numberOfGuests" type="number" name="numberofguests" min="3" max="14"><br>
     Do you require breakfast?
     <label for="yesBreakfast">Yes: </label><input id="yesBreakfast" type="radio" name="breakfast" value="yesBreakfast">
     <label for="noBreakfast">No: </label><input id="noBreakfast" type="radio" name="breakfast" value="noBreakfast"><br>
+    
     <input type="button" value="Submit" id="submit" name="submit">
 </form>
 </div>
