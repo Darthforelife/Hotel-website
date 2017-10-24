@@ -81,31 +81,63 @@ nav a:hover::before {
 
 /* ROOMS */
 
-h1 {
-    text-align: center;
-    color: #fff;
+.event1, .event2, .event3, .event4 {
+  position: relative;
+  opacity: 0.70;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
-.row {
-    text-align: center;
+.event1 {
+  background-image: url('../img/room1.jpeg');
+  min-height: 100%;
 }
 
-.rooms {
-    margin-bottom: 2em;
+.event2 {
+  background-image: url(../img/room2.jpg);
+  min-height: 100%;
 }
 
-.rooms .info {
-    padding: 1.5em;
-    background-color: #dddedf;
+.event3 {
+    background-image: url(../img/activities3.jpg);
+    min-height: 100%;
 }
 
-.img-responsive {
-    width: 900px;
-    background-attachment: fixed;
-    background-size: cover;
+.section {
+  text-align: center;
+  padding: 50px 80px;
 }
 
-.h3a a {
-    list-style: none;
-    text-decoration: none;
+.section-light {
+  background-color: #f4f4f4;
+  color: #666;
+}
+
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+.ptext .border {
+  background-color: #111;
+  color: #fff;
+  padding: 20px;
+}
+
+.ptext .border.trans {
+  background-color: transparent;
+}
+
+@media(max-width: 568px) {
+  .pimg1 .pimg2 .pimg3 {
+    background-attachment: scroll;
+  }
 }
