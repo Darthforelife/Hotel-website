@@ -6,7 +6,7 @@ body, html {
   font-weight: 400;
   line-height: 1.8em;
   color: #666;
-  background-color: #282e34;
+  background-color: #fff;
 }
 
 /* HEADER */
@@ -55,7 +55,7 @@ nav a {
   color: #444;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 nav a:hover {
@@ -81,7 +81,11 @@ nav a:hover::before {
 
 /* ROOMS */
 
+<<<<<<< HEAD
 .room1, .room2, .room3 {
+=======
+.event1, .event2, .event3, .event4 {
+>>>>>>> f511b76bf671016aedc4f6b91d4b0c01bdecc13d
   position: relative;
   opacity: 0.70;
   background-position: center;
@@ -90,6 +94,7 @@ nav a:hover::before {
   background-attachment: fixed;
 }
 
+<<<<<<< HEAD
 .room1 {
   background-image: url('../img/room1.jpg');
   min-height: 100%;
@@ -136,10 +141,59 @@ nav a:hover::before {
   background-color: transparent;
 }
 
+=======
+.event1 {
+  background-image: url('../img/room1.jpeg');
+  min-height: 100%;
+}
+
+.event2 {
+  background-image: url(../img/room2.jpg);
+  min-height: 100%;
+}
+
+.event3 {
+    background-image: url(../img/activities3.jpg);
+    min-height: 100%;
+}
+
+.section {
+  text-align: center;
+  padding: 50px 80px;
+}
+
+.section-light {
+  background-color: #f4f4f4;
+  color: #666;
+}
+
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+.ptext .border {
+  background-color: #111;
+  color: #fff;
+  padding: 20px;
+}
+
+.ptext .border.trans {
+  background-color: transparent;
+}
+
+>>>>>>> f511b76bf671016aedc4f6b91d4b0c01bdecc13d
 @media(max-width: 568px) {
   .pimg1 .pimg2 .pimg3 {
     background-attachment: scroll;
   }
+<<<<<<< HEAD
 }
 
 @media(max-width: 1450px) {
@@ -153,3 +207,6 @@ nav a:hover::before {
         font-size: 11px;
     }
 }
+=======
+}
+>>>>>>> f511b76bf671016aedc4f6b91d4b0c01bdecc13d

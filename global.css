@@ -6,14 +6,10 @@ body, html {
   font-weight: 400;
   line-height: 1.8em;
   color: #666;
-<<<<<<< HEAD
-  background-color: #f4f4f4;
-=======
   background-color: #fff;
->>>>>>> f511b76bf671016aedc4f6b91d4b0c01bdecc13d
 }
 
-/* HEADER */ 
+/* HEADER */
 
 .container {
   width: 80%;
@@ -52,7 +48,6 @@ nav li {
   padding-top: 25px;
 
   position: relative;
-
 }
 
 nav a {
@@ -82,39 +77,3 @@ nav a:hover::before {
 
   transition: all ease-in-out 250ms;
 }
-/* PLACEHOLDERS */
-
-.placeholders {
-    float: right;
-    padding: 5px;
-    margin: 0 auto;
-}
-
-.left {
-    background-image: url(../img/booking.jpeg);
-    width: 60%;
-    position: absolute;
-    left: 0px;
-    height: 94%;
-    background-repeat: no-repeat;
-}
-
-.right {
-    width: 49%;
-    position: absolute;
-    right: 0px;
-    height: 94%;
-}
-
-@media(max-width: 1450px) {
-    nav a {
-        font-size: 12px;
-    }
-}
-
-@media(max-width: 1300px) {
-    nav a {
-        font-size: 11px;
-    }
-}
-
