@@ -6,7 +6,7 @@ body, html {
   font-weight: 400;
   line-height: 1.8em;
   color: #666;
-  background-color: aliceblue;
+  background-color: #f4f4f4;
 }
 
 /* HEADER */ 
@@ -88,7 +88,7 @@ nav a:hover::before {
 
 .left {
     background-image: url(../img/booking.jpeg);
-    width: 50%;
+    width: 60%;
     position: absolute;
     left: 0px;
     height: 94%;
@@ -101,3 +101,16 @@ nav a:hover::before {
     right: 0px;
     height: 94%;
 }
+
+@media(max-width: 1450px) {
+    nav a {
+        font-size: 12px;
+    }
+}
+
+@media(max-width: 1300px) {
+    nav a {
+        font-size: 11px;
+    }
+}
+

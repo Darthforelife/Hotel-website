@@ -6,10 +6,10 @@ body, html {
   font-weight: 400;
   line-height: 1.8em;
   color: #666;
-  background-color: aliceblue;
+  background-color: #f4f4f4;
 }
 
-/* HEADER */
+/* HEADER */ 
 
 .container {
   width: 80%;
@@ -77,4 +77,44 @@ nav a:hover::before {
   width: 100%;
 
   transition: all ease-in-out 250ms;
+}
+/* WEBSITE */
+
+.right {
+    background-image: url(../img/Unavngivet.png);
+    width: 60%;
+    position: absolute;
+    right: 0px;
+    height: 97%;
+    background-repeat: no-repeat;
+}
+
+.left {
+    width: 49%;
+    position: absolute;
+    left: 0px;
+    height: 94%;
+}
+
+h2 {
+    text-transform: uppercase;
+    margin: 10px 65px;
+}
+
+h2 a {
+    list-style: none;
+    text-decoration: none;
+    color: #666;
+}
+
+@media(max-width: 1450px) {
+    nav a {
+        font-size: 12px;
+    }
+}
+
+@media(max-width: 1300px) {
+    nav a {
+        font-size: 11px;
+    }
 }

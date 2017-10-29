@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="jquery.waypoints.min.js"></script>
     <meta charset="UTF-8">
     <title>Booking</title>
     <link rel="stylesheet" href="css/booking.css">
@@ -14,7 +16,7 @@
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="rooms.html">Our rooms</a></li>
-                <li><a href="activities.html">Activities</a></li>
+                <li><a href="activities.html">Accommodation</a></li>
                 <li><a href="practicali.html">Practical information</a></li>
                 <li><a href="booking.html">Booking</a></li>
             </ul>
@@ -22,12 +24,13 @@
     </div>
 </header>
 
-<div class="left">
+<div class="left animated fadeInLeft">
     
 </div>
+
 <div class="right">
 <div class="placeholders animated fadeInRight">
-<form>
+<form action="index.html" method="get">
        <h2>Personal Information</h2>
         First name:<br>
         <input type="text" id="firstname" name="firstname" required><br>
@@ -293,18 +296,27 @@
         <option value="SB" label="Solomon Islands">Solomon Islands</option>
     </optgroup>
     </select> 
-</form>
-<form>
+    
     <h2>Booking Details</h2>
-    <label for="date">Booking date: </label><input id="date" type="date" name="date" min="2017-10-23">
-    <label for="numberOfGuests">Number of guests: </label><input id="numberOfGuests" type="number" name="numberofguests" min="1" max="11"><br>
+    
+    <select>
+        <option value="0" label="Select a cabin ... " selected="selected"></option> 
+        <option value="cabin1">Honeymoon cabin | $150 pr night</option>
+        <option value="cabin2">Family cabin | $200 pr night</option>
+        <option value="cabin3">King cabin | $400 pr night</option>
+    </select>
+    <label for="date">Booking date: </label><input id="date" type="date" name="date" min="2017-10-23"><br>
+    <label for="numberOfGuests">Number of guests: </label><input id="numberOfGuests" type="number" name="numberofguests" min="1" max="14" required><br>
     Do you require breakfast?
     <label for="yesBreakfast">Yes: </label><input id="yesBreakfast" type="radio" name="breakfast" value="yesBreakfast">
-    <label for="noBreakfast">No: </label><input id="noBreakfast" type="radio" name="breakfast" value="noBreakfast"><br>
-    <input type="button" value="Submit" id="submit" name="submit">
+    <label for="noBreakfast">No: </label><input id="noBreakfast" type="radio" name="breakfast" value="noBreakfast" required><br>
+    <button type="submit" value="Book" id="submit" name="submit" formaction="index.html">Book now</button>
 </form>
+
 </div>
 </div>
+
+
 
 </body>
 </html>
