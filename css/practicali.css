@@ -6,11 +6,8 @@ body, html {
   font-weight: 400;
   line-height: 1.8em;
   color: #666;
-<<<<<<< HEAD
   background-color: #f4f4f4;
-=======
   background-color: #fff;
->>>>>>> f511b76bf671016aedc4f6b91d4b0c01bdecc13d
 }
 
 /* HEADER */ 
@@ -82,7 +79,7 @@ nav a:hover::before {
 
   transition: all ease-in-out 250ms;
 }
-<<<<<<< HEAD
+
 /* WEBSITE */
 
 .right {
@@ -123,7 +120,6 @@ h2 a {
         font-size: 11px;
     }
 }
-=======
 
 /* MENU */
 
@@ -174,4 +170,3 @@ h2 a {
   font-family: arial;
   margin-top: -22px;
 }
->>>>>>> f511b76bf671016aedc4f6b91d4b0c01bdecc13d

@@ -81,11 +81,8 @@ nav a:hover::before {
 
 /* ROOMS */
 
-<<<<<<< HEAD
-.room1, .room2, .room3 {
-=======
+    
 .event1, .event2, .event3, .event4 {
->>>>>>> f511b76bf671016aedc4f6b91d4b0c01bdecc13d
   position: relative;
   opacity: 0.70;
   background-position: center;
@@ -94,7 +91,6 @@ nav a:hover::before {
   background-attachment: fixed;
 }
 
-<<<<<<< HEAD
 .room1 {
   background-image: url('../img/room1.jpg');
   min-height: 100%;
@@ -188,12 +184,11 @@ nav a:hover::before {
   background-color: transparent;
 }
 
->>>>>>> f511b76bf671016aedc4f6b91d4b0c01bdecc13d
 @media(max-width: 568px) {
   .pimg1 .pimg2 .pimg3 {
     background-attachment: scroll;
   }
-<<<<<<< HEAD
+
 }
 
 @media(max-width: 1450px) {
@@ -207,6 +202,4 @@ nav a:hover::before {
         font-size: 11px;
     }
 }
-=======
-}
->>>>>>> f511b76bf671016aedc4f6b91d4b0c01bdecc13d
+
