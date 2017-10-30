@@ -80,15 +80,16 @@ nav a:hover::before {
 }
 /* PLACEHOLDERS */
 
-.placeholders {
-    float: right;
+
+.weather {
+    float: left;
     padding: 5px;
     margin: 0 auto;
 }
 
 .left {
-    background-image: url(../img/booking.jpeg);
-    width: 60%;
+    background-image: url(../img/bear.jpeg);
+    width: 50%;
     position: absolute;
     left: 0px;
     height: 94%;
@@ -100,6 +101,7 @@ nav a:hover::before {
     position: absolute;
     right: 0px;
     height: 94%;
+    float: right;
 }
 
 @media(max-width: 1450px) {

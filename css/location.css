@@ -80,26 +80,28 @@ nav a:hover::before {
 }
 /* PLACEHOLDERS */
 
-.placeholders {
-    float: right;
-    padding: 5px;
-    margin: 0 auto;
+img {
+    height: 300px;
+    width: 500px;
 }
 
-.left {
-    background-image: url(../img/booking.jpeg);
-    width: 60%;
+
+
+.right {
+    background-image: url(../img/weatherleft1.jpg);
+    width: 51%;
     position: absolute;
-    left: 0px;
+    right: 0px;
     height: 94%;
     background-repeat: no-repeat;
 }
 
-.right {
+.left {
     width: 49%;
     position: absolute;
-    right: 0px;
+    left: 0px;
     height: 94%;
+    padding: 5px;
 }
 
 @media(max-width: 1450px) {

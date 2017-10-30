@@ -82,7 +82,7 @@ nav a:hover::before {
 /* ROOMS */
 
     
-.event1, .event2, .event3, .event4 {
+.room1, .room2, .room3 {
   position: relative;
   opacity: 0.70;
   background-position: center;
